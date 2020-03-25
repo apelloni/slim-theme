@@ -5,7 +5,8 @@ My SLiM lock screen theme
 
 
 
-# Gnome
+Gnome
+-------
 In order to be to lock the screen with Gnome and using SLiM at the same time, one needs to create a new hook `etc/systemd/system/lockit@$USER.service`
 ```
 [Unit]
@@ -21,3 +22,7 @@ ExecStart=/usr/bin/slimlock
 [Install]
 WantedBy=sleep.target
 ```
+
+License
+-------
+This project is licensed under the MIT License.
